@@ -1,3 +1,8 @@
 export default function returnHowManyArguments(...args) {
-  return args.length();
+  let other = 0;
+
+  args.forEach((element) => {
+    other += 1;
+  });
+  return other;
 }
