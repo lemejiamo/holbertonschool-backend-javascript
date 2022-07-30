@@ -1,7 +1,7 @@
 export default function returnHowManyArguments(...args) {
   let other = 0;
 
-  args.forEach((element) => {
+  args.forEach(() => {
     other += 1;
   });
   return other;
