@@ -3,4 +3,3 @@ export default function getStudentsByLocation(studentsList, city) {
   const byCityList = studentsList.filter((student) => student.location === city);
   return byCityList;
 }
-
