@@ -3,7 +3,7 @@ export default function getListStudents() {
     {
       id: 1,
       firstname: 'Guillaume',
-      location: 'San Fransisco',
+      location: 'San Francisco',
     },
 
     {
@@ -15,7 +15,7 @@ export default function getListStudents() {
     {
       id: 3,
       firstname: 'Serena',
-      location: 'San Fransisco',
+      location: 'San Francisco',
     },
   ];
 
